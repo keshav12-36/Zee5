@@ -103,4 +103,4 @@ def api():
         except KeyError:
             return { "Message" : "No Url Specified" }, 200
 if __name__ == "__main__":
-    a.run("127.0.0.1", debug=False)
+    a.run("0.0.0.0", debug=False)
